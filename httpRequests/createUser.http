@@ -1,0 +1,20 @@
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "firstName": "Ivan",
+  "secondName": "Ivanov",
+  "position": "Programmer",
+  "department": "IT"
+}
+
+###
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "firstName": "Petr",
+  "secondName": "Petrov",
+  "position": "Tester",
+  "department": "IT"
+}
